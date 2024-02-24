@@ -2,5 +2,6 @@
 
 def call(String folderpath='tfcode') {
 
-    echo "Hello, ${folderpath}."
+    // echo "Hello, ${folderpath}."
+    powershell 'write-host " this is  jenkins example ${folderpath}"'
 }
